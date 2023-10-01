@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Phoenix B2B">
+    <test name="Login API">
+        <classes>
+            <class name="com.phoenixB2B.LoginApiTest"/>
+        </classes>
+    </test>
+    <test name="Phoenix B2B API">
+        <classes>
+            <class name="com.phoenixB2B.PhoenixB2BTest"></class>
+        </classes>
+    </test>
+</suite>
